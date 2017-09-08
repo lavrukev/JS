@@ -1,0 +1,1 @@
+document.getElementById('create-nume').onclick=f1;function f1(){var p=document.getElementByID('out"); for(vat k=0; k<200; k+}{p.innerhtml+=k+' ';}}
