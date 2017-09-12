@@ -35,8 +35,30 @@ var m5 = [{
 var out = '';
 var out2 = '';
 for (key in m5) {
-    out += m5[0]['mts'];
-    out2 += m5[0]['life'];
+    out += m5[0]['mts'] + ' ';
+    out2 += m5[0]['life'] + ' ';
+}
+console.log(out);
+console.log(out2);
+
+
+
+var m6 = {
+    "phone1": {
+        "mts": "+38050556677",
+        "life": "+093445566"
+    },
+    "phone2": {
+        "mts": "+38050665544",
+        "life": "+093112233"
+    }
+}
+var out = '';
+var out2 = '';
+var out3 = '';
+for (key in m6) {
+    out += m6['phone1']['mts'] + ' ';
+    out2 += m6['phone1']['life'] + ' ';
 }
 console.log(out);
 console.log(out2);

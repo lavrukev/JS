@@ -1,0 +1,30 @@
+/*var arr=[12,'hello',[1,23]];
+//var brr=arr[2];
+//alert(brr[1])
+alert(arr[2][1])*/
+var arr=[12,24,37,42,5];
+var str='';
+for(i=0;i<arr.length;i++){
+	str+=arr[i]+"=";
+}
+document.body.innerHTML+=str+"<br>";
+
+var city={
+	"kiev":["3mln",50],
+	"odessa":["1mln",30],
+	"kharkiv":["2mln",35]
+	
+	};
+	alert(city.kiev);
+	if("moskva" in city){alert("yest")}
+	else{alert("nyet")}
+	
+	for(var key in city){
+		console.log(key+"========="+city[key])
+		document.body.innerHTML+=""+key+": "+city[key][0]+" ppl; "+city[key][1]+" jkh"+"<br>";
+		
+	}
+	
+	/*var crr=[undefined,undefined,undefined];
+	console.log(crr);*/
+	

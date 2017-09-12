@@ -1,0 +1,14 @@
+"use strict"
+var arr=[10];
+var brr=new Array(10);
+brr[4]="kolayn";
+brr[10]="rediska";
+console.log(arr);
+console.log(brr);
+
+function Frends(){
+	
+	if(brr.length>10){alert('пришел 11')}
+}
+Frends()
+//func())()

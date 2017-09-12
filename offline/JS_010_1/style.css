@@ -1,0 +1,9 @@
+nav ul {
+    display: none;
+    color: goldenrod;
+}
+
+nav div {
+    float: left;
+    margin: 10px 30px;
+}
